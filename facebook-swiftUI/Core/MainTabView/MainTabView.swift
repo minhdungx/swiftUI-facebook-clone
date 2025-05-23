@@ -51,10 +51,11 @@ struct MainTabView: View {
                 .onAppear {
                     selectedTab = 4
                 }
-                
+            
         }
         .onAppear {
             UITabBar.appearance().barTintColor  = UIColor(.white)
+          
         }
     }
 }
